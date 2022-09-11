@@ -1,0 +1,22 @@
+#banda, #player{
+    width: 35%;
+    display: block;
+    margin: 0px auto;
+}
+
+#letra-ingles{
+    padding-left: 100px;
+    padding-top: 20px;
+    text-align: right;
+}
+
+#letra-traduzida{
+    padding-top: 20px;
+    padding-left: 50px;
+    text-align: justify;
+}
+
+#letras{
+    display: flex;
+    justify-content: center;
+}

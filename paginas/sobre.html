@@ -1,0 +1,277 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sobre</title>
+    <link rel="shortcut icon" href="../imagens/icons8-audacity-50.png" type="image/x-icon">
+    <link rel="stylesheet" href="sobre.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-u1OknCvxWvY5kfmNBILK2hRnQC3Pr17a+RTT6rIHI7NnikvbZlHgTPOOmMi466C8" crossorigin="anonymous"></script>    
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script>
+        $(window).scroll(function () {
+            $('nav').toggleClass('scrolled', $(this).scrollTop() > 50);
+        });
+    </script>
+    
+    <style>
+        .navbar.scrolled{
+            background-color: rgb(148, 41, 33) !important;
+        }
+    </style>
+
+</head>
+
+<body style="background-color: rgb(36, 35, 35);">
+    <!-- NAVBAR -->
+    <nav class="navbar fixed-top navbar-expand-sm navbar-light bg-dark" id="navbar">
+        <div class="container-fluid">
+            <a class="navbar-brand mb-lg-0 mb-2" style="color: darkgrey;">Conheça a Sua Banda</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation" style="margin-right: 100px;">
+            <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-lg-0">
+                <li class="nav-item">
+                <a class="navbar-brand mb-0" href="../index.html" style="color: white;">Home<span class="sr-only"></span></a>
+                </li>
+                <li class="nav-item">
+                    <a class="navbar-brand mb-0" href="sobre.html" style="color: white;">Sobre</a>
+                </li>
+                <li class="nav-item">
+                    <a class="navbar-brand mb-0" href="https://open.spotify.com/playlist/14pMR9O1fgXEs8UtZCNQG6?si=6a465f2e4c834b6d" target="_blank" rel="noopener noreferrer"style="color: white;">Playlist</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+
+    <div id>
+        <br><br><br>
+        <h1 style="color: white; text-align: center;">Site Construido em Nome da Música</h1>
+        <p style="color: white; text-align: center;">
+            Fiz esse minúsulo site para treinar o que eu já sei de HTML mais o que eu ainda não sei. Como o tema é livre decidi falar sobre as minhas bandas favoritas de todos os tempos. <br> Faltou várias mas aí eu teria que fazer uma Wikipédia 2 só de bandas. <br> Para finalizar deixo, aqui a minha música favorita de todos os tempos junto com a sua letra traduzida.
+        </p>
+
+        <div class="container-sm">
+            <picture>
+                <source media="(max-width: 750px)" srcset="imagens/animals.jpeg" type="image/jpeg">
+                <source media="(max-width: 1050px)" srcset="imagens/animals.jpeg" type="image/jpeg">
+                <img src="../imagens/animals.jpeg" alt="Álbum: Animals Banda: Pink Floyd" id="banda">
+            </picture>
+        </div>
+        <br>
+        <audio src="../musicas/Dogs - Pink Floyd.mp3" controls id="player"></audio>
+
+        <br>
+        <h3 style="color: white; text-align: center;" >Dogs - Pink Floyd</h2>
+        <h5 style="color: white; text-align: center;" >Album: Animals</h2>
+        <div id="letras">
+            <div id="letra-ingles">
+                <p style="color: white;">
+                    You got to be crazy <br>
+                    You gotta have a real need <br>
+                    You gotta sleep on your toes <br>
+                    And when you're on the street <br>
+                    You got to be able to pick out the easy meat <br>
+                    With your eyes closed <br>
+                </p>
+                <p style="color: white;">
+                    And then moving in silently <br>
+                    Down wind and out of sight <br>
+                    You got to strike when the moment is right <br>
+                    Without thinking <br>
+                </p>
+                <p style="color: white;">
+                    And after a while <br>
+                    You can work on points for style <br>
+                    Like the club tie <br>
+                    And the firm handshake <br>
+                    A certain look in the eye and an easy smile <br>
+                </p>
+                <p style="color: white;">
+                    You have to be trusted <br>
+                    By the people that you lie to <br>
+                    So that when they turn their backs on you <br>
+                    You'll get the chance to put the knife in <br>
+                </p>
+                <p style="color: white;">
+                    You gotta keep one eye <br>
+                    Looking over your shoulder <br>
+                    You know, it's going to get harder <br>
+                    And harder and harder <br>
+                    As you get older <br>
+                </p>
+                <p style="color: white;">
+                    Yeah, and in the end, you'll pack up <br>
+                    And fly down south <br>
+                    Hide your head in the sand <br>
+                    Just another sad old man <br>
+                    All alone and dying of cancer <br>
+                </p>
+                <p style="color: white;">
+                    And when you lose control <br>
+                    You'll reap the harvest you have sown <br>
+                    And as the fear grows <br>
+                    The bad blood slows and turns to stone <br>
+                </p>
+                <p style="color: white;">
+                    And it's too late to lose the weight <br>
+                    You used to need to throw around <br>
+                    So have a good drown, as you go down all alone <br>
+                    Dragged down by the stone <br>
+                </p>
+                <p style="color: white;">
+                        Stone, stone, stone, stone <br>
+                </p>
+                <p style="color: white;">
+                    Got to admit <br>
+                    That I'm a little bit confused <br>
+                    Sometimes it seems to me <br>
+                    As if I'm just being used <br>
+                </p>
+                <p style="color: white;">
+                    Gotta stay awake, gotta try and shake off <br>
+                    This creeping malaise <br>
+                    If I don't stand my own ground <br>
+                    How can I find my way out of this maze? <br>
+                </p>
+                <p style="color: white;">
+                    Deaf, dumb and blind <br>
+                    You just keep on pretending <br>
+                    That everyone's expendable <br>
+                    And no one has a real friend <br>
+                </p>
+                <p style="color: white;">
+                    And it seems to you, the thing to do <br>
+                    Would be to isolate the winner <br>
+                    Everything's done under the Sun <br>
+                    But you believe at heart everyone's a killer <br>
+                </p>
+                <p style="color: white;">
+                    Who was born in a house full of pain? <br>
+                    Who was trained not to spit in the fan? <br>
+                    Who was told what to do by the man? <br>
+                    Who was broken by trained personnel? <br>
+                </p>
+                <p style="color: white;">
+                    Who was fitted with collar and chain? <br>
+                    Who was given a pat on the back? <br>
+                    Who was breaking away from the pack? <br>
+                    Who was only a stranger at home? <br>
+                </p>
+                <p style="color: white;">
+                    Who was ground down in the end? <br>
+                    Who was found dead on the phone? <br>
+                    Who was dragged down by the stone? <br>
+                    Who was dragged down by the stone? <br>
+                </p>
+            </div>
+            
+            <div id="letra-traduzida">
+                <p style="color: white;">
+                    Você precisa ser louco <br>
+                    Você precisa ter uma verdadeira necessidade <br>
+                    Você precisa dormir com um olho aberto <br>
+                    E quando você estiver na rua <br>
+                    Precisa ser capaz de acertar o alvo mais fácil <br>
+                    Com os olhos fechados <br>
+                </p>
+                <p style="color: white;">
+                    E depois, se movendo silenciosamente <br>
+                    A favor do vento e sem ser visto <br>
+                    Você tem que atacar no momento certo <br>
+                    Sem pensar <br>
+                </p>
+                <p style="color: white;">
+                    E depois de um tempo <br>
+                    Você pode melhorar o visual <br>
+                    Com uma gravata estilosa <br>
+                    E um aperto de mão firme <br>
+                    Um certo olhar nos olhos e um sorriso fácil <br>
+                </p>
+                <p style="color: white;">
+                    Você tem que ter a confiança <br>
+                    Das pessoas para as quais você mente <br>
+                    Para que quando elas lhe virarem as costas <br>
+                    Você tenha a chance de lhes enfiar a faca <br>
+                </p>
+                <p style="color: white;">
+                    Você precisa ficar de olho aberto <br>
+                    Estar atento <br>
+                    Você sabe, ficará cada vez mais <br>
+                    E mais e mais difícil <br>
+                    À medida que você envelhece <br>
+                </p>
+                <p style="color: white;">
+                    É, e no fim, você vai arrumar as malas <br>
+                    E ir embora para o sul <br>
+                    Esconder sua cabeça na areia <br>
+                    Apenas outro velho triste <br>
+                    Sozinho e morrendo de câncer <br>
+                </p>
+                <p style="color: white;">
+                    E quando você perder o controle <br>
+                    Você vai colher o que plantou <br>
+                    E conforme o medo cresce <br>
+                    O rancor vai diminuindo e vira pedra <br>
+                </p>
+        
+                <p style="color: white;">
+                    E é tarde demais para se libertar do peso <br>
+                    Que você precisava carregar <br>
+                    Então tenha um bom afogamento enquanto afunda sozinho <br>
+                    Arrastado para o fundo pela pedra <br>
+                </p>
+                <p style="color: white;">
+                    Pedra, pedra, pedra, pedra <br>
+                </p>
+                <p style="color: white;">
+                    Tenho que admitir <br>
+                    Que estou um pouco confuso <br>
+                    Às vezes me parece <br>
+                    Como se eu estivesse apenas sendo usado <br>
+                </p>
+                <p style="color: white;">
+                    Tenho que ficar acordado, tenho que tentar me livrar <br>
+                    Desse mal-estar assustador <br>
+                    Se não me mantiver firme <br>
+                    Como vou achar a saída deste labirinto? <br>
+                </p>
+                <p style="color: white;">
+                    Surdo, mudo e cego <br>
+                    Você continua fingindo <br>
+                    Que todos são descartáveis <br>
+                    E que ninguém tem um verdadeiro amigo <br>
+                </p>
+                <p style="color: white;">
+                    E parece que pra você, a coisa a fazer <br>
+                    Seria isolar o vencedor <br>
+                    Tudo é feito às claras <br>
+                    Mas, no fundo, você acredita todo mundo é um assassino <br>
+                </p>
+                <p style="color: white;">
+                    Quem nasceu numa casa cheia de dor? <br>
+                    Quem foi ensinado a não cuspir no ventilador? <br>
+                    Quem foi ensinado pelo homem a obedecer? <br>
+                    Quem foi domado por equipes treinadas? <br>
+                </p>
+                <p style="color: white;">
+                    Quem estava usando coleira e corrente? <br>
+                    Quem levou um tapinha nas costas? <br>
+                    Quem estava se separando da matilha? <br>
+                    Quem era apenas um estranho em casa? <br>
+                </p>
+                <p style="color: white;">
+                    Quem terminou exausto no fim? <br>
+                    Quem foi encontrado morto ao telefone? <br>
+                    Quem foi arrastado para o fundo pela pedra? <br>
+                    Quem foi arrastado para o fundo pela pedra? <br>
+                </p>
+            </div>
+        </div>
+    </div>
+
+</body>
+</html>

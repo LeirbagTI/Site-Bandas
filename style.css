@@ -1,0 +1,37 @@
+p{
+    padding-bottom: 50px;
+    padding-right: 50px;
+    padding-left: 50px;
+}
+
+/* Led Zeppelin*/
+#led-zeppelin{ background-color: rgba(255, 255, 255, 0);}
+.LD-h1{ padding-right: 25px;}
+
+#led-imagem{
+    padding-top: 40px;
+    padding-right: 75px;
+    width: 750px;
+}
+
+.d-flex{ margin-left: 50px;}
+.d-flex, #h1{ padding: 50px;}
+
+/* Pink Floyd */
+#pink-floyd{ background-color: pink;}
+.PF-h1{ color: white;}
+.floyd-image{ width: 850px;}
+
+/* Black Sabbath*/
+#black-sabbath{ background-color: rgb(36, 35, 35);}
+.BS-h1{ color: white;}
+
+/* Palace */
+#palace{ background-color: brown;}
+
+
+
+
+
+
+
